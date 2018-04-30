@@ -6,7 +6,7 @@ str = "this is a string"
 
 """
 sdsdsdsdsd
-sdshidsdsds
+sdshsdsdsd
 """
 
 print(name)

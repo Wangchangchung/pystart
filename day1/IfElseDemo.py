@@ -6,9 +6,9 @@ old_age = 50
 
 guess = int(input("guess age:"))
 
-if guess == old_age :
+if guess == old_age:
     print("yes you are right")
-elif guess > old_age :
+elif guess > old_age:
     print("no bigeer")
 else:
     print("no samller")
