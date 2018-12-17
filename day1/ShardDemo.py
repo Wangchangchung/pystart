@@ -51,7 +51,13 @@ names = ["1", [1, 2], "2"]
 names[1][0] = 9
 print(names)
 
-names1 = copy.copy(names)  # 这个是浅copy,与列表的copy是一样的.
+names1 = copy.copy(names)  # 这个是浅copy,与列表的copy是一样的.只是一个引用的copy
+
+names3 = name[:]
+
+print("name3:", names3)
+
+
 # 进行深copy
 names2 = copy.deepcopy(names)
 
@@ -66,6 +72,14 @@ print(names2)
 # 遍历列表
 for i in names2:
     print(i)
+
+
+
+# 跳跃打印: 从0 开始打印, 到末尾, 步长为2
+print(name[0:-1:2])
+# 0, -1可以进行省略
+print(name[::2])
+
 
 '''
 深浅copy
